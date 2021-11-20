@@ -1,5 +1,6 @@
+opencv-python-headless
 fastai
 scikit-image
 icevision
 icedata
-opencv-python-headless
+
