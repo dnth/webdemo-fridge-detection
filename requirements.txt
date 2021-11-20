@@ -1,4 +1,4 @@
-icevision
+icevision[all]
 icedata
 
 #opencv-python-headless
