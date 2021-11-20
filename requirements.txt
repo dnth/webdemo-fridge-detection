@@ -1,5 +1,5 @@
-icevision[all]
-icedata
+#icevision[all]
+#icedata
 opencv-python-headless
 
 #fastai
