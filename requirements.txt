@@ -1,6 +1,8 @@
 #icevision[all]
 #icedata
-opencv-python-headless
+#opencv-python-headless
+
+git+https://github.com/dnth/icevision.git
 
 #fastai
 #scikit-image
