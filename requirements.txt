@@ -1,6 +1,6 @@
 icevision[all]
 icedata
+opencv-python-headless
 
-#opencv-python-headless
 #fastai
 #scikit-image
