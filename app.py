@@ -1,4 +1,3 @@
-import cv2
 from icevision.all import *
 import icedata
 import PIL, requests
