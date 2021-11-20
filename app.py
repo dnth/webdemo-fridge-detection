@@ -49,7 +49,7 @@ examples = ["sample_images/"+file for file in files]
 article="<p style='text-align: center'><a href='https://dicksonneoh.com/fridge-detector/' target='_blank'>Blog post</a></p>"
 enable_queue=True
 
-
+print(examples)
 
 def show_preds(input_image, display_label, display_bbox, detection_threshold):
 
@@ -72,7 +72,7 @@ detection_threshold_slider = gr.inputs.Slider(minimum=0, maximum=1, step=0.1, de
 outputs = gr.outputs.Image(type="pil")
 
 # Option 1: Get an image from local drive
-gr_interface = gr.Interface(fn=show_preds, inputs=["image", display_chkbox_label, display_chkbox_box,  detection_threshold_slider], outputs=outputs, title='IceApp - Fridge Object', article=article,examples='./sample_images/')
+gr_interface = gr.Interface(fn=show_preds, inputs=["image", display_chkbox_label, display_chkbox_box,  detection_threshold_slider], outputs=outputs, title='IceApp - Fridge Object', article=article)
 
 # #  Option 2: Grab an image from a webcam
 # gr_interface = gr.Interface(fn=show_preds, inputs=["webcam", display_chkbox_label, display_chkbox_box,  detection_threshold_slider], outputs=outputs, title='IceApp - COCO', live=False)
